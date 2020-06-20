@@ -1,2 +1,9 @@
 # moving_cylinder_world
 a moving cylinder and corridor environment
+第一个功能包主要是无人机的模型文件
+第二个是环境中的墙壁的model和它的配置文件，需要先插入到gazebo
+第san个是控制住子移动的源代码和launch文件
+第si个是仿真环境的world文件
+环境启动命令为：
+#roslaunch hector_quadrotor_demo indoor_slam_gazebo.launch
+#roslaunch mobile_cylinder multi_box.launch
